@@ -1,0 +1,31 @@
+{
+  "name": "discord-spam",
+  "version": "1.0.0",
+  "description": "Botu sunucuya eklemeden User Install ile her yerde mesajı otomatik tekrar gönderen Discord spam botu",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "spam",
+    "slash-command",
+    "user-install",
+    "discord.js"
+  ],
+  "license": "MIT",
+  "author": "clydeofficial",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clydeofficial/discord-spam.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.1"
+  }
+}
